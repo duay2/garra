@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/white">
+
+    <!-- Campo para el nombre del animal -->
+    <EditText
+        android:id="@+id/txt_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombre"
+        android:textSize="18sp"
+        android:padding="12dp"
+        android:background="@drawable/edittext_background" /> <!-- Fondo personalizado -->
+
+    <!-- Campo para la especie del animal -->
+    <EditText
+        android:id="@+id/txt_especie"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Especie"
+        android:textSize="18sp"
+        android:padding="12dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/edittext_background" />
+
+    <!-- Campo para las habilidades del animal -->
+    <EditText
+        android:id="@+id/txt_skills"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Habilidades"
+        android:textSize="18sp"
+        android:padding="12dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/edittext_background" />
+
+    <!-- Botón para guardar el animal -->
+    <Button
+        android:id="@+id/btn_save"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Guardar"
+        android:textSize="18sp"
+        android:padding="12dp"
+        android:layout_marginTop="24dp"
+        android:background="@color/purple_500"
+        android:textColor="@color/white" />
+</LinearLayout>

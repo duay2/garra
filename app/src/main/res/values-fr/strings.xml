@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Griffe</string>
+    <string name="text_new">Nouvel enregistrement d\'animal</string>
+    <string name="text_list">Consulter les animaux</string>
+    <string name="text_name">Entrez le nom de l\'animal :</string>
+    <string name="text_save">Enregistrer</string>
+    <string name="text_especie">Espèce :</string>
+    <string name="text_skills">Compétences :</string>
+</resources>

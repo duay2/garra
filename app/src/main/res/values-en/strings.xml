@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Claw</string>
+    <string name="text_new">New animal record</string>
+    <string name="text_list">Consult animals</string>
+    <string name="text_name">Enter the animal\'s name:</string>
+    <string name="text_save">Save</string>
+    <string name="text_especie">Species:</string>
+    <string name="text_skills">Skills:</string>
+</resources>
