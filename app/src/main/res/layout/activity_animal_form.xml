@@ -3,8 +3,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:padding="16dp"
-    android:background="@color/white">
+    android:padding="32dp"
+    android:background="@drawable/fondo" >
+
+    <!-- Espacio en la parte superior -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="200dp" />
 
     <!-- Campo para el nombre del animal -->
     <EditText
@@ -47,6 +52,6 @@
         android:textSize="18sp"
         android:padding="12dp"
         android:layout_marginTop="24dp"
-        android:background="@color/purple_500"
+        android:background="@drawable/button_background"
         android:textColor="@color/white" />
 </LinearLayout>

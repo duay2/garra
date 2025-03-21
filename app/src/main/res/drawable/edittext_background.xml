@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <shape xmlns:android="http://schemas.android.com/apk/res/android">
-    <!-- Color de fondo -->
-    <solid android:color="#FFFFFF" /> <!-- Blanco -->
+    <!-- Color de fondo semitransparente -->
+    <solid android:color="#80FFFFFF" /> <!-- Blanco con 50% de opacidad -->
 
     <!-- Bordes redondeados -->
     <corners android:radius="8dp" />
